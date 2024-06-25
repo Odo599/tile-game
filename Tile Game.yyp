@@ -35,6 +35,8 @@
   "name":"Tile Game",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_tl_background","path":"sprites/spr_tl_background/spr_tl_background.yy",},},
+    {"id":{"name":"tl_background","path":"tilesets/tl_background/tl_background.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
