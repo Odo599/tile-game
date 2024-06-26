@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_blue",
+  "%Name":"obj_tile_yellow",
   "eventList":[],
   "managed":true,
-  "name":"obj_tile_blue",
+  "name":"obj_tile_yellow",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_tile_yellow",
+    "path":"sprites/spr_tile_yellow/spr_tile_yellow.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
