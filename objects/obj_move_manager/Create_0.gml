@@ -6,5 +6,3 @@ drag_y = mouse_y
 
 view_xview = drag_x - (mouse_x - view_xview);
 view_yview = drag_y - (mouse_y - view_yview);
-
-global.coord_to_destroy = []
