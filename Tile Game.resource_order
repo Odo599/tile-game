@@ -19,6 +19,5 @@
   "ResourceOrderSettings":[
     {"name":"obj_cursor","order":1,"path":"objects/obj_cursor/obj_cursor.yy",},
     {"name":"spr_cursor","order":1,"path":"sprites/spr_cursor/spr_cursor.yy",},
-    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
