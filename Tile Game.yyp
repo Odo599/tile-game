@@ -35,7 +35,11 @@
   "name":"Tile Game",
   "resources":[
     {"id":{"name":"obj_move_manager","path":"objects/obj_move_manager/obj_move_manager.yy",},},
+    {"id":{"name":"obj_tile_blue","path":"objects/obj_tile_blue/obj_tile_blue.yy",},},
+    {"id":{"name":"obj_tile_red","path":"objects/obj_tile_red/obj_tile_red.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_tile_blue","path":"sprites/spr_tile_blue/spr_tile_blue.yy",},},
+    {"id":{"name":"spr_tile_red","path":"sprites/spr_tile_red/spr_tile_red.yy",},},
     {"id":{"name":"spr_tl_background","path":"sprites/spr_tl_background/spr_tl_background.yy",},},
     {"id":{"name":"tl_background","path":"tilesets/tl_background/tl_background.yy",},},
   ],
