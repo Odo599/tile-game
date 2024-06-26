@@ -1,4 +1,4 @@
-leftPixel = 0;
-rightPixel = 0;
-abovePixel = 0;
-belowPixel = 0;
+left_pixel = 0;
+right_pixel = 0;
+above_pixel = 0;
+below_pixel = 0;
