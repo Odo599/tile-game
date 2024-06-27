@@ -1,3 +1,6 @@
+//  Purple Block
+/// @desc Placement Code
+
 left_pixel = x - 1;
 right_pixel = x + 1;
 above_pixel = y - 1;
