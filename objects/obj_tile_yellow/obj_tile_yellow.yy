@@ -1,18 +1,22 @@
 {
   "$GMObject":"",
   "%Name":"obj_tile_yellow",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_tile_yellow",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tile_parent","path":"objects/obj_tile_parent/obj_tile_parent.yy",},"propertyId":{"name":"my_tile","path":"objects/obj_tile_parent/obj_tile_parent.yy",},"resource":{"name":"obj_tile_yellow","path":"objects/obj_tile_yellow/obj_tile_yellow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_tile_yellow",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tile_parent","path":"objects/obj_tile_parent/obj_tile_parent.yy",},"propertyId":{"name":"other_tile","path":"objects/obj_tile_parent/obj_tile_parent.yy",},"resource":{"name":"obj_tile_purple","path":"objects/obj_tile_purple/obj_tile_purple.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_tile_purple",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tile_parent","path":"objects/obj_tile_parent/obj_tile_parent.yy",},"propertyId":{"name":"place_button","path":"objects/obj_tile_parent/obj_tile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"mb_left",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_tile_parent",
+    "path":"objects/obj_tile_parent/obj_tile_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
