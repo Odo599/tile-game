@@ -1,4 +1,5 @@
 /// @description Insert description here
+/// @description Set Vars
 // You can write your code in this editor
 
 left_pixel = x - 1;

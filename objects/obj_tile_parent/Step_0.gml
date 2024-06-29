@@ -1,6 +1,8 @@
 //  Purple Block
 /// @desc Placement Code
+/// @desc Placement & Instant Destroy
 
+#region Placement Code
 left_pixel = x - 1;
 right_pixel = x + 1;
 above_pixel = y - 1;
@@ -27,6 +29,7 @@ if place_meeting(x, below_pixel, obj_cursor) and mouse_check_button(place_button
 instance_create_layer(x, below_pixel, "Instances", my_tile)
 }
 
+#endregion
 
 
 if place_meeting(x,y,my_tile) or place_meeting(x,y,other_tile)

@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tile_parent","path":"objects/obj_tile_parent/obj_tile_parent.yy",},"propertyId":{"name":"place_button","path":"objects/obj_tile_parent/obj_tile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"mb_right",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"tiles",
+    "path":"folders/Objects/tiles.yy",
   },
   "parentObjectId":{
     "name":"obj_tile_parent",
