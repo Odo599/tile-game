@@ -1,6 +1,6 @@
 /// @desc Placement & Instant Destroy
 
-if mouse_check_button_pressed(mb_left) or mouse_check_button_pressed(mb_right)
+if (mouse_check_button_pressed(mb_left) or mouse_check_button_pressed(mb_right)) and global.joined
 {
 	#region Placement Code
 	left_pixel = x - 1;

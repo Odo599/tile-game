@@ -7,3 +7,8 @@ if keyboard_check_pressed(ord("P"))
 {
 	global.debug = !global.debug
 }
+
+if rollback_game_running
+{
+	global.joined = true
+}

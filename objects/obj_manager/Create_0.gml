@@ -4,8 +4,15 @@ global.yellow_timer = global.yellow_timer_time;
 global.debug = true;
 
 rollback_define_player(obj_cursor)
-if (!rollback_join_game())
+
+rollback_define_input({
+mx: m_axisx,
+my: m_axisy,
+})
+
+global.joined = rollback_join_game()
+if (!global.joined)
 {
-	rollback_create_game(1, false,"Australia");	
-	rollback_start_game();
+	rollback_create_game(2, true);	
 }
+
